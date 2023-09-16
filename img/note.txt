@@ -1,0 +1,99 @@
+
+button 1
+
+display: flex;
+width: 107px;
+height: 40px;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+
+
+image////
+body{
+    background-image: url(./unsplash_ELf8M_YWRTY.svg);
+    background-size: cover;
+    height: 100px;
+    background-position: center;
+    width: 900px;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg-color: #fff;
+    --text-color: #EC682C;
+    --second-color: #4B40C5;
+}
+
+/* button styling */
+.btn{
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.btn.dark{
+    background-color: #EC682C;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn1.dark{
+    background-color: #4B40C5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1000px;
+    top: 0;
+    padding: 36px 0;
+    z-index: 100;
+}
+.logo{
+    font-family: 'Peralta', serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+.achivement-card{
+    display: none;
+}
+
+
+
+
+:root{
+    --bg-color: #fff;
+    --text-color: #EC682C;
+    --second-color: #4B40C5;
+}
+
+
